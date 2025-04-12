@@ -6,5 +6,6 @@ return {
 	{ import = "plugins.fugitive" },
     { import = "plugins.lualine" },
     { import = "plugins.lsp" },
+    { import = "plugins.vimbegood"},
 }
 
