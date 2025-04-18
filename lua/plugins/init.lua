@@ -8,5 +8,7 @@ return {
     { import = "plugins.lsp" },
     { import = "plugins.vimbegood" },
     { import = "plugins.dashboard" },
+    { import = "plugins.autopairs"},
+    { import = "plugins.nvimtree" },
 }
 
