@@ -1,15 +1,16 @@
 return {
-  -- LSP Support
-  { "neovim/nvim-lspconfig" }, -- Core LSP setup
-  { "williamboman/mason.nvim", build = ":MasonUpdate" }, -- LSP installer UI
-  { "williamboman/mason-lspconfig.nvim" }, -- Bridges Mason + lspconfig
+  -- LSP base
+  { "neovim/nvim-lspconfig" },
+  { "mason-org/mason.nvim", build = ":MasonUpdate" },
+  { "mason-org/mason-lspconfig.nvim" },
 
   -- Autocompletion
   { "hrsh7th/nvim-cmp" },
-  { "hrsh7th/cmp-nvim-lsp" }, -- LSP source for nvim-cmp
-  { "hrsh7th/cmp-buffer" },   -- buffer completions
-  { "hrsh7th/cmp-path" },     -- path completions
-  { "saadparwaiz1/cmp_luasnip" }, -- snippets
-  { "L3MON4D3/LuaSnip" },     -- snippet engine
+  { "hrsh7th/cmp-nvim-lsp" },
+  { "hrsh7th/cmp-buffer" },
+  { "hrsh7th/cmp-path" },
+  { "L3MON4D3/LuaSnip" },
+  { "saadparwaiz1/cmp_luasnip" },
 }
+
 

@@ -1,5 +1,6 @@
 require("estebanpuyanas")
 require("config.lazy")
+require("config.lsp")
 
 -- Enable true color support
 vim.opt.termguicolors = true
