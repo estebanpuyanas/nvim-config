@@ -51,4 +51,7 @@ the following command:
 
 Then run open your terminal and run the `Lazy sync` command to update the config and you should be good to go!
 
+__Note__: The config is currently setup for Python, Java, C++ LSP support, so make sure to modify the 
+`~/.config/nvim/lua/config/lsp.lua` file to fit your LSP requirements. 
+
 
