@@ -10,5 +10,6 @@ return {
     { import = "plugins.dashboard" },
     { import = "plugins.autopairs"},
     { import = "plugins.nvimtree" },
+    { import = "plugins.mdrender" },
 }
 

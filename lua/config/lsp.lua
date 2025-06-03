@@ -5,9 +5,10 @@ require("mason").setup()
 
 -- Mason LSPConfig
 require("mason-lspconfig").setup({
-  ensure_installed = { "pyright", "clangd", "jdtls", 
-                        "dockerls", "docker_compose_language_service",
-                        "elixirls", "html"},
+  ensure_installed = { "pyright", "clangd", "jdtls",
+                        "dockerls", "docker_compose_language_service", "html",
+                        "marksman", "elixirls", },
+
   handlers = {
     function(server_name)
       require("lspconfig")[server_name].setup({

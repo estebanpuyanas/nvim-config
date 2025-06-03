@@ -6,7 +6,8 @@ return {
     build = ":TSUpdate",
     config = function()
       require("nvim-treesitter.configs").setup {
-        ensure_installed = { "java", "cpp", "python" },
+        ensure_installed = { "java", "cpp", "python", "elixir", "dockerfile",
+                            "html", "lua", "sql"},
         highlight = { enable = true },
         indent = { enable = true },
       }
