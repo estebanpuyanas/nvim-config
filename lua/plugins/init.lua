@@ -11,5 +11,6 @@ return {
     { import = "plugins.autopairs"},
     { import = "plugins.nvimtree" },
     { import = "plugins.mdrender" },
+    { import = "plugins.cursor" },
 }
 
