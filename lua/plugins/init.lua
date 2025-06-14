@@ -12,5 +12,6 @@ return {
     { import = "plugins.nvimtree" },
     { import = "plugins.mdrender" },
     { import = "plugins.cursor" },
+    { import = "plugins.trouble" },
 }
 
