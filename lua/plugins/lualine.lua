@@ -39,11 +39,11 @@ return {
               always_visible = false,
             },
           },
-          lualine_x = { "encoding", "filetype" }, -- removed fileformat to kill "Bot"
+          lualine_x = { "encoding", "fileformat", "filetype" }, -- removed fileformat to kill "Bot"
           lualine_y = { "progress" },
           lualine_z = { "location" },
         },
-        extensions = { "nvim-tree", "fugitive" },
+        extensions = {"nvim-tree", "fugitive" },
       }
     end
   }
