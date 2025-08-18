@@ -13,5 +13,6 @@ return {
     { import = "plugins.mdrender" },
     { import = "plugins.cursor" },
     { import = "plugins.trouble" },
+    { import = "plugins.icons" },
 }
 
