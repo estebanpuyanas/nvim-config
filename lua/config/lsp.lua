@@ -8,7 +8,8 @@ require("mason-lspconfig").setup({
   ensure_installed = {
     "pyright", "clangd", "jdtls",
     "dockerls", "docker_compose_language_service",
-    "html", "marksman", "elixirls",
+    "html", "marksman", "elixirls", "ocamllsp",
+    "ts_ls", "eslint", "jsonls", "cssls", "tailwindcss",
   },
 
   handlers = {
