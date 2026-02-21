@@ -1,13 +1,15 @@
--- ~/.config/nvim/lua/plugins/colorscheme.lua
+
 return {
   {
-    "navarasu/onedark.nvim",
+    "rebelot/kanagawa.nvim",
+    version = false,
+    lazy = false,
     priority = 1000,
     config = function()
-      require("onedark").setup {
-        style = "deep",
+      require("kanagawa").setup {
+        theme = "wave",
       }
-      require("onedark").load()
+      require("kanagawa").load()
     end,
   }
 }

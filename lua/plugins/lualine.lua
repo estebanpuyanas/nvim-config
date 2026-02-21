@@ -5,14 +5,14 @@ return {
     config = function()
       require("lualine").setup {
         options = {
-          theme = "onedark",
+          theme = "auto",
           icons_enabled = true,
           section_separators = { left = "", right = "" },
           component_separators = { left = "", right = "" },
         },
         sections = {
           lualine_a = { "mode" },
-          lualine_b = { "branch", "diff" },
+          lualine_b = { "branch", "diff", },
           lualine_c = {
             {
               "filename",
@@ -39,9 +39,9 @@ return {
               always_visible = false,
             },
           },
-          lualine_x = { "encoding", "fileformat", "filetype" }, -- removed fileformat to kill "Bot"
-          lualine_y = { "progress" },
-          lualine_z = { "location" },
+          lualine_x = {},
+          lualine_y = {},
+          lualine_z = {},
         },
         extensions = {"nvim-tree", "fugitive" },
       }
