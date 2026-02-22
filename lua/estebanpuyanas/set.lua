@@ -30,4 +30,4 @@ vim.opt.colorcolumn = "80"
 vim.opt.cursorline = true         -- Highlight current line
 vim.opt.splitright = true         -- Vertical splits open to the right
 vim.opt.splitbelow = true         -- Horizaontal splits open below
-vim.opt.guicursor = "n-v-c:ver10,i-ci-ve:ver5,r-cr:hor20,o:hor50"
+vim.opt.guicursor = "a:hor20"
