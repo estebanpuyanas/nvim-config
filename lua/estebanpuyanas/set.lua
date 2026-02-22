@@ -31,3 +31,13 @@ vim.opt.cursorline = true         -- Highlight current line
 vim.opt.splitright = true         -- Vertical splits open to the right
 vim.opt.splitbelow = true         -- Horizaontal splits open below
 vim.opt.guicursor = "a:hor20"
+
+vim.api.nvim_create_autocmd("BufWritePre", {
+  callback = function(args)
+    require("conform").format({
+      bufnr = args.buf,
+      lsp_fallback = true,
+      async = false,
+    })
+  end,
+})

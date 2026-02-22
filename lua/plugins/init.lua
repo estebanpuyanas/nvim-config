@@ -9,5 +9,6 @@ return {
     { import = "plugins.mdrender" },
     { import = "plugins.trouble" },
     { import = "plugins.icons" },
-    { import = "plugins.autotags" }
+    { import = "plugins.autotags" },
+    { import = "plugins.conform" }
 }
